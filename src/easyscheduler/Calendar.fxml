@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyscheduler.CalendarController">
+   <children>
+      <Group layoutX="32.0" layoutY="92.0">
+         <children>
+            <RadioButton fx:id="onlyAgentRb" layoutY="22.0" mnemonicParsing="false">
+               <toggleGroup>
+                  <ToggleGroup fx:id="agents" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="allAgentsRb" mnemonicParsing="false" selected="true" text="All agents" toggleGroup="$agents" />
+         </children>
+      </Group>
+      <CheckBox fx:id="upcomingCxBx" layoutX="32.0" layoutY="231.0" mnemonicParsing="false" text="Upcoming only" />
+      <Group layoutX="34.0" layoutY="303.0">
+         <children>
+            <Region layoutX="-8.0" layoutY="-4.0" prefHeight="104.0" prefWidth="105.0" style="-fx-border-style: solid; -fx-border-color: lightgrey;" />
+            <CheckBox fx:id="consultationCxBx" mnemonicParsing="false" selected="true" text="Consultation" />
+            <CheckBox fx:id="kickoffCxBx" layoutY="25.0" mnemonicParsing="false" selected="true" text="Kickoff" />
+            <CheckBox fx:id="meetingCxBx" layoutY="50.0" mnemonicParsing="false" selected="true" text="Meeting" />
+            <CheckBox fx:id="updateCxBx" layoutY="76.0" mnemonicParsing="false" selected="true" text="Update" />
+         </children>
+      </Group>
+      <Label layoutX="32.0" layoutY="274.0" text="Appointment Type" />
+      <TextField fx:id="customerTf" layoutX="32.0" layoutY="179.0" prefHeight="25.0" prefWidth="118.0" />
+      <Label layoutX="32.0" layoutY="155.0" text="Customer Name (optional)" />
+      <Label layoutX="180.0" layoutY="14.0" text="Appointment Calendar">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="filterBtn" layoutX="28.0" layoutY="420.0" mnemonicParsing="false" onAction="#getAppointments" prefHeight="52.0" prefWidth="102.0" text="Update Results" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <TreeTableView fx:id="treeTable" accessibleRole="IMAGE_VIEW" layoutX="180.0" layoutY="92.0" prefHeight="414.0" prefWidth="716.0" showRoot="false">
+        <columns>
+          <TreeTableColumn fx:id="monthCol" prefWidth="85.0" />
+          <TreeTableColumn fx:id="monthStartCol" prefWidth="83.0" text="Start" />
+            <TreeTableColumn fx:id="monthEndCol" prefWidth="57.0" text="End" />
+            <TreeTableColumn fx:id="monthTitleCol" prefWidth="75.0" text="Title" />
+            <TreeTableColumn fx:id="monthCustCol" prefWidth="75.0" text="Customer" />
+            <TreeTableColumn fx:id="monthAgentCol" prefWidth="75.0" text="Agent" />
+            <TreeTableColumn fx:id="monthTypeCol" prefWidth="75.0" text="Type" />
+        </columns>
+         <columnResizePolicy>
+            <TreeTableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TreeTableView>
+      <RadioButton fx:id="monthRb" layoutX="180.0" layoutY="66.0" mnemonicParsing="false" onAction="#showMonthView" selected="true" text="View By Month">
+         <toggleGroup>
+            <ToggleGroup fx:id="view" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="weekRb" layoutX="305.0" layoutY="66.0" mnemonicParsing="false" onAction="#showWeekView" text="View By Week" toggleGroup="$view" />
+      <Label fx:id="foundLabel" layoutX="180.0" layoutY="511.0" text="0 results found." />
+      <Button fx:id="backBtn" layoutX="29.0" layoutY="484.0" mnemonicParsing="false" onAction="#handleBackBtn" prefHeight="36.0" prefWidth="101.0" text="Back" />
+   </children>
+</Pane>

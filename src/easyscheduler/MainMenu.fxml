@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyscheduler.MainMenuController">
+   <children>
+      <Button fx:id="mainCustomers" layoutX="286.0" layoutY="110.0" mnemonicParsing="false" onAction="#showCustomers" prefHeight="88.0" prefWidth="112.0" text="Customers" />
+      <Button fx:id="mainAppointments" layoutX="437.0" layoutY="110.0" mnemonicParsing="false" onAction="#showAppointments" prefHeight="88.0" prefWidth="112.0" text="Appointments" />
+      <Button fx:id="mainCalendar" layoutX="286.0" layoutY="230.0" mnemonicParsing="false" onAction="#showCalendar" prefHeight="88.0" prefWidth="112.0" text="Calendar" />
+      <Button fx:id="mainReports" layoutX="437.0" layoutY="230.0" mnemonicParsing="false" onAction="#showReports" prefHeight="88.0" prefWidth="112.0" text="Reports" />
+      <Label fx:id="mainUsernameLbl" layoutX="47.0" layoutY="161.0" text="[username]">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="47.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome,">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="174.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="easyScheduler">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button fx:id="logoutBtn" layoutX="47.0" layoutY="276.0" mnemonicParsing="false" onAction="#logoutBtnClicked" prefHeight="40.0" prefWidth="147.0" text="Logout">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

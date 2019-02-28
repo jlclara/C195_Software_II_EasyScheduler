@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="reportsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyscheduler.ReportsController">
+   <children>
+      <TabPane fx:id="tabPane" layoutX="18.0" layoutY="70.0" prefHeight="375.0" prefWidth="745.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab fx:id="report1Tab" text="Appt Type Per Month" />
+          <Tab fx:id="report2Tab" onSelectionChanged="#showReport2" text="Customer Appt Per Month" />
+          <Tab fx:id="report3Tab" onSelectionChanged="#showReport3" text="Your Upcoming Schedule" />
+        </tabs>
+      </TabPane>
+      <Label layoutX="18.0" layoutY="22.0" text="Reports">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="backBtn" layoutX="18.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="25.0" prefWidth="54.0" text="Back" />
+      <VBox layoutX="19.0" layoutY="108.0" prefHeight="346.0" prefWidth="745.0">
+         <children>
+            <ToolBar prefHeight="43.0" prefWidth="745.0">
+               <items>
+                  <HBox fx:id="hBox" maxWidth="651.0" prefHeight="29.0" prefWidth="620.0" spacing="20.0">
+                     <children>
+                        <ChoiceBox fx:id="firstCb" prefHeight="25.0" prefWidth="147.0" />
+                        <ChoiceBox fx:id="secondCb" prefHeight="25.0" prefWidth="145.0" />
+                        <ChoiceBox fx:id="thirdCb" prefHeight="25.0" prefWidth="145.0" />
+                        <Button fx:id="updateBtn" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#updateResults" prefHeight="25.0" prefWidth="95.0" text="Update" textAlignment="RIGHT">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="resultsLbl" alignment="CENTER_RIGHT" contentDisplay="RIGHT" focusTraversable="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="109.0" snapToPixel="false" text="results found." />
+               </items>
+            </ToolBar>
+            <TableView fx:id="appointmentTableView" editable="true" prefHeight="312.0" prefWidth="745.0">
+               <columns>
+                  <TableColumn fx:id="startTimeCol" prefWidth="108.0" text="Start Time" />
+                  <TableColumn fx:id="endTimeCol" prefWidth="111.0" text="End Time" />
+                  <TableColumn fx:id="titleCol" prefWidth="128.0" text="Title" />
+                  <TableColumn fx:id="descriptionCol" prefWidth="102.0" text="Description" />
+                  <TableColumn fx:id="typeCol" prefWidth="81.0" text="Type" />
+                  <TableColumn fx:id="customerCol" prefWidth="99.0" text="Customer Name" />
+                  <TableColumn fx:id="agentCol" prefWidth="115.0" text="Agent Name" />
+               </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <Button fx:id="printBtn" layoutX="712.0" layoutY="463.0" mnemonicParsing="false" onAction="#handlePrint" prefHeight="25.0" prefWidth="54.0" text="Print" />
+   </children>
+</Pane>

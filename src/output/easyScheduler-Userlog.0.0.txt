@@ -1,0 +1,234 @@
+Sep 13, 2018 10:44:30 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 10:44:39 AM easyscheduler.AppointmentFieldsController handleApptSave
+INFO: Added/updated appointment: Testing #4
+Sep 13, 2018 10:45:29 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 10:45:40 AM easyscheduler.AppointmentFieldsController handleApptSave
+INFO: Jenny Added/updated appointment: Testing # 1
+Sep 13, 2018 10:49:47 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 11:09:41 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 11:10:29 AM easyscheduler.LoginController loginBtnClicked
+INFO: null logged in
+Sep 13, 2018 11:13:05 AM easyscheduler.LoginController loginBtnClicked
+INFO: null logged in
+Sep 13, 2018 11:13:33 AM easyscheduler.LoginController loginBtnClicked
+INFO: null logged in
+Sep 13, 2018 11:14:28 AM easyscheduler.LoginController loginBtnClicked
+INFO: null logged in
+Sep 13, 2018 11:14:50 AM easyscheduler.LoginController loginBtnClicked
+INFO: null logged in
+Sep 13, 2018 11:16:20 AM easyscheduler.LoginController loginBtnClicked
+INFO: null logged in
+Sep 13, 2018 11:16:55 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 11:17:06 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 11:19:35 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 11:55:26 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 11:58:09 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:19:50 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:21:53 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:24:34 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:24:45 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:28:23 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:28:56 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:29:43 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:33:01 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:34:14 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:38:00 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:39:46 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:45:08 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:48:22 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 1:52:36 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:03:22 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:09:56 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:12:58 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:15:22 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:17:31 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:18:24 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 2:19:23 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:05:51 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:18:34 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:20:01 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:23:10 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:24:04 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:36:40 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:37:52 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:38:25 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:40:16 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:49:25 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:50:08 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:50:49 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:54:51 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 3:59:39 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 4:17:01 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 13, 2018 4:37:57 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 7:51:10 AM easyscheduler.LoginController loginBtnClicked
+INFO: jenny logged in
+Sep 14, 2018 7:59:22 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 7:59:54 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:10:50 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:14:03 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:14:14 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:16:12 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:24:14 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:26:17 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:26:58 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:27:45 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:33:30 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:34:15 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:47:34 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:48:49 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:51:48 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 8:57:00 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:28:52 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:32:36 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:35:01 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:35:08 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:39:57 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:41:20 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:42:46 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:45:47 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:46:33 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:48:10 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:50:27 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:54:49 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 9:58:59 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:01:15 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:06:43 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:10:44 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:17:51 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:24:01 AM easyscheduler.LoginController loginBtnClicked
+INFO: Test logged in
+Sep 14, 2018 10:24:32 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:35:11 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:35:47 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:43:45 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:45:44 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:49:28 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:50:50 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 10:52:52 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 1:22:50 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 11:40:08 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 1:42:34 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 1:47:11 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 1:48:06 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 11:49:00 AM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 1:49:39 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:07:40 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:08:51 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:12:25 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:14:49 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:19:11 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:19:51 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:20:38 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:25:52 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Sep 14, 2018 2:49:14 PM easyscheduler.LoginController loginBtnClicked
+INFO: Test logged in
+Dec 20, 2018 5:40:44 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Dec 20, 2018 5:42:53 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Dec 20, 2018 5:43:55 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
+Dec 27, 2018 1:43:12 PM easyscheduler.LoginController loginBtnClicked
+INFO: Jenny logged in
